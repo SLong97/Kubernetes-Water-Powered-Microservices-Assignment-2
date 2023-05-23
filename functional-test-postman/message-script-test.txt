@@ -1,0 +1,49 @@
+MESSAGE REQUEST
+
+{
+    "user_id" : 1,
+    "category" : "SIMULATION",
+    "max_results" : 3
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+SCRIPTS (AFTER RESPONSE)
+
+pm.test('Response time below 300ms', () => {
+  pm.expect(pm.response.responseTime).to.be.below(300);
+});
+
+pm.test('All messages have "recommendations"', () => {
+  pm.response.messages.to.have.property('recommendations');
+});
+
+//Given that the order of the recommended games in "recommendations[]" is subject to change this test isnt guaranteed to be successful
+pm.test('Correct recommendation details are received', () => {
+  pm.response.to.have.message({
+    "recommendations": [
+        {
+            "id": 8,
+            "title": "Euro Truck Simulator 2",
+            "developer": "SCS Software",
+            "description": "A truck driving simulation game that allows players to drive various trucks across Europe, making deliveries and managing their own trucking company.",
+            "rating": "★★★★"
+        },
+        {
+            "id": 9,
+            "title": "Kerbal Space Program",
+            "developer": "Squad",
+            "description": "A space flight simulation game where players design and launch their own spacecraft, exploring the solar system and completing missions.",
+            "rating": "★★★★★"
+        },
+        {
+            "id": 7,
+            "title": "Cities: Skylines",
+            "developer": "Colossal Order",
+            "description": "A city-building simulation game where players can design and manage their own city, including road networks, public services, and taxes.",
+            "rating": "★★★★"
+        }
+    ]
+  });
+});

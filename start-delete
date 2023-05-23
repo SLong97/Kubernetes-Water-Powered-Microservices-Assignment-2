@@ -1,0 +1,48 @@
+	----Delete Services & Pods----
+
+
+sudo kubectl delete service flask-web-app
+sudo kubectl delete deployment flask-web-app-deploy
+
+sudo kubectl delete service recom-service
+sudo kubectl delete deployment recom-service-deploy
+
+sudo kubectl delete service cat-service
+sudo kubectl delete deployment cat-service-deploy
+
+sudo kubectl delete service rabbitmq
+sudo kubectl delete deployment rabbitmq-deploy
+
+
+
+	----Create Services & Pods----
+
+
+sudo kubectl create -f recom-service-svc.yml
+sudo kubectl create -f recom-service-deploy.yml
+
+sudo kubectl create -f cat-service-svc.yml
+sudo kubectl create -f cat-service-deploy.yml
+
+sudo kubectl create -f rabbitmq-svc.yml
+sudo kubectl create -f rabbitmq-deploy.yml
+
+	----Wait a few seconds then create web app----
+
+sudo kubectl create -f flask-web-app-svc.yml
+sudo kubectl create -f flask-web-app-deploy.yml
+
+
+
+	----Container Tag & Push----
+
+docker tag flask-web-app slong97/flask-web-app:latest
+docker tag recom-service slong97/recom-service:latest
+docker tag cat-service slong97/cat-service:latest
+docker tag rabbitmq:latest slong97/rabbitmq:latest
+
+docker push slong97/flask-web-app:latest
+docker push slong97/recom-service:latest
+docker push slong97/cat-service:latest
+docker push slong97/rabbitmq:latest
+

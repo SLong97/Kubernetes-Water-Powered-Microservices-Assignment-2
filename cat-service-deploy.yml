@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cat-service-deploy
+spec:
+  replicas: 6
+  selector:
+    matchLabels:
+      app: cat-service
+  minReadySeconds: 6
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 1
+  template:
+    metadata:
+      labels:
+        app: cat-service
+    spec:
+      containers:
+      - name: cat-service
+        image: slong97/cat-service:latest
+        ports:
+        - containerPort: 50052
+

@@ -1,0 +1,10 @@
+{
+  "simulation": "waterpoweredappHAR.RecordedSimulation",
+  "simulationId": "recordedsimulation-20230513170428567",
+  "start": 1683997469434,
+  "description": "",
+  "scenarios": ["RecordedSimulation"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: recom-service-deploy
+spec:
+  replicas: 6
+  selector:
+    matchLabels:
+      app: recom-service
+  minReadySeconds: 6
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 1
+  template:
+    metadata:
+      labels:
+        app: recom-service
+    spec:
+      containers:
+      - name: recom-service
+        image: slong97/recom-service:latest
+        ports:
+        - containerPort: 50051
+
