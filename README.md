@@ -11,6 +11,8 @@ Get your application running using Kubernetes, create a Docker Hub repository fo
 You must scale the pods (using deployments), but be careful not to overload your system. Exactly
 how many replicas you have isn’t hugely important.
 
+![Screenshot from 2023-05-13 12-12-36](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/blob/main/misc%20images/Screenshot%20from%202023-05-13%2012-12-36.png)
+
 ## Task 2 - Testing and Monitoring
 
 You are to address the testing and monitoring of your application. You are to develop 1 functional
