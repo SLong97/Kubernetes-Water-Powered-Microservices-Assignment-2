@@ -23,15 +23,15 @@ of your application.
 
 #### RabbitMQ - Python Test Script
 
-![Screenshot from 2023-05-12 20-35-56](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/assets/91565384/a6703761-316d-4efe-a112-3343f5e934ad)
+![Screenshot from 2023-05-12 20-35-56](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/blob/main/functional-test-script/User%20Activity%20RabbitMQ%20service/Screenshot%20from%202023-05-12%2020-35-56.png)
 
 #### RabbitMQ - Test Run
 
-![Screenshot from 2023-05-12 20-37-21](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/assets/91565384/a004e507-43f1-410f-bc9c-0e357f644a27)
+![Screenshot from 2023-05-12 20-37-21](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/blob/main/functional-test-script/User%20Activity%20RabbitMQ%20service/Screenshot%20from%202023-05-12%2020-37-21.png)
 
 #### RabbitMQ - Web App Example
 
-![Screenshot from 2023-05-12 20-40-47](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/assets/91565384/173dd308-5251-40e9-a7fb-13c16e3ac399)
+![Screenshot from 2023-05-12 20-40-47](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/blob/main/functional-test-script/User%20Activity%20RabbitMQ%20service/Screenshot%20from%202023-05-12%2020-40-47.png)
 
 ***
 
@@ -39,13 +39,13 @@ of your application.
 
 #### Request & Response
 
-![Screenshot from 2023-05-12 20-31-28](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/assets/91565384/a4472e9a-558b-4cfc-b2b8-d41c1659ce3a)
+![Screenshot from 2023-05-12 20-31-28](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/blob/main/functional-test-postman/Recommendation%20GRPC%20service/Screenshot%20from%202023-05-12%2020-31-28.png)
 
 #### Test Scripts & Results
 
-![Screenshot from 2023-05-12 20-30-07](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/assets/91565384/190c4df9-feda-477e-a682-c61fc6fc9889)
+![Screenshot from 2023-05-12 20-30-07](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/blob/main/functional-test-postman/Recommendation%20GRPC%20service/Screenshot%20from%202023-05-12%2020-30-07.png)
 
-![Screenshot from 2023-05-12 20-32-58](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/assets/91565384/92d1d047-52e0-47df-b11b-3b15ce397356)
+![Screenshot from 2023-05-12 20-32-58](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/blob/main/functional-test-postman/Recommendation%20GRPC%20service/Screenshot%20from%202023-05-12%2020-32-58.png)
 
 ***
 
@@ -56,13 +56,13 @@ responsiveness, security, load, failover, etc.
 
 #### Gatling - Ramping up to 100 users over the course of 60 seconds
 
-![Screenshot from 2023-05-13 18-16-56](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/assets/91565384/bef30bc3-a7b4-4dee-b93b-a0fef4e02e6f)
+![Screenshot from 2023-05-13 18-16-56](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/blob/main/non-functional-load-testing-gatling/Screenshot%20from%202023-05-13%2018-16-56.png)
 
 #### Gatling - Generated HTML visualisations
 
-![Screenshot 2023-05-13 at 18-18-52 Gatling Stats - Global Information](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/assets/91565384/2574f329-0429-4d22-8a29-d20b17618b93)
+![Screenshot 2023-05-13 at 18-18-52 Gatling Stats - Global Information](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/blob/main/non-functional-load-testing-gatling/Screenshot%202023-05-13%20at%2018-18-52%20Gatling%20Stats%20-%20Global%20Information.png)
 
-![Screenshot 2023-05-13 at 18-21-38 Gatling Stats - Global Information](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/assets/91565384/b51a9faf-0735-496e-96e1-2e93999d0500)
+![Screenshot 2023-05-13 at 18-21-38 Gatling Stats - Global Information](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/blob/main/non-functional-load-testing-gatling/Screenshot%202023-05-13%20at%2018-21-38%20Gatling%20Stats%20-%20Global%20Information.png)
 
 
 
@@ -72,8 +72,8 @@ Develop using whatever tool(s) you choose a monitoring solution for your applica
 
 #### Pod Monitoring - Monitoring Pods while running Gatling test
 
-![Screenshot from 2023-05-14 13-27-37](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/assets/91565384/f27736bb-edf3-4c07-8e9a-cc2931625339)
+![Screenshot from 2023-05-14 13-27-37](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/blob/main/pod-monitoring/Screenshot%20from%202023-05-14%2013-27-37.png)
 
 #### Pod Monitoring - Web App CPU & Memory Useage Visualisation
 
-![Screenshot from 2023-05-14 13-28-18](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/assets/91565384/18b43560-09f5-4231-a3ad-0a2ab3b24252)
+![Screenshot from 2023-05-14 13-28-18](https://github.com/SLong97/Kubernetes-Water-Powered-Microservices-Assignment-2/blob/main/pod-monitoring/Screenshot%20from%202023-05-14%2013-28-18.png)
